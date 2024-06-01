@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* nav section code start here */
+
+.logo-ul-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: rgb(73, 72, 72);
+    font-size: 20px;
+}
+.logo img{
+    width: 40px;
+}
+
+.ul-button{
+    display: flex;
+    align-items: center;
+}
+.ul-button ul{
+    display: flex;
+    list-style: none;
+}
+.ul-button ul li{
+    margin-right: 27px;
+    font-size: 18px;
+}
+.nav-btn {
+    background-color: rgb(8, 142, 160);
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 14px;
+    border-radius: 30px;
+    border: none;
+}
