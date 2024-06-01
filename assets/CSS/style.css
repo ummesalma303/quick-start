@@ -6,13 +6,13 @@
 /* nav section code start here */
 header{
     width: 100%;
-    height: 100vh;
+    height: 160vh;
 }
 .logo-ul-parent{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 60px;
+    padding: 15px 80px;
 }
 .logo{
     display: flex;
@@ -36,7 +36,7 @@ header{
     margin-right: 27px;
     font-size: 18px;
 }
-.nav-btn {
+.nav-btn{
     background-color: #6fb7cf;
     color: #fff;
     padding: 8px 20px;
@@ -87,4 +87,95 @@ header{
     color: #6fb7cf;
     font-size: 24px;
     margin-left: 10px;
+}
+/* card section code start here  */
+.card-section{
+    padding: 100px 80px;
+}
+.card-parent{
+   display: flex;
+   justify-content: center;
+   gap: 74px;
+}
+.card-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.card-icon{
+    font-size: 36px;
+    color: #207f9e;
+    background-color: #6fb7cf56;
+    padding: 12px 17px;
+}
+.card-text h2{
+    color: #5a99ad;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.card-text p{
+    font-size: 17px;
+}
+/* creative section code start here */
+.creative-sec{
+    padding: 0 80px 60px 80px;
+}
+.creative-parent{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.creative-text h5{
+    font-size: 20px;
+    color: rgb(112, 111, 111);
+    font-weight: 300;
+}
+.creative-text h2{
+    font-size: 30px;
+    margin: 8px 0 18px 0;
+    color: rgb(75, 74, 74);
+}
+.creative-text p{
+    font-size: 16px;
+    color: rgb(90, 90, 90);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 12px;
+}
+.creative-text ul{
+    list-style: none;
+    font-size: 20px;
+    color: rgb(90, 90, 90);
+}
+.creative-text ul li{
+    margin: 10px 0;
+}
+.creative-text i{
+    color: #448497;
+}
+.creative-btn{
+    background-color: #5297ad;
+    color: #fff;
+    padding: 11px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    margin-top: 25px;
+}
+.creative-btn i{
+    color: #fff;
+    font-size: 20px;
+}
+.creative-image-parent{
+    display: flex;
+    gap: 20px;
+}
+.creative-image img{
+    width: 300px;
+}
+
+.creative-image-sidebar img:nth-child(1){
+    margin-bottom: 22px;
+}
+.creative-image-sidebar img{
+    width: 295px;
 }
